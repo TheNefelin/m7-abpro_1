@@ -5,7 +5,7 @@ import { hideBin } from "yargs/helpers";
 const { Pool } = pkg;
 
 const pool = new Pool({
-    connectionString: "PostgreSQL://postgres:!nfra48x@localhost:5432/usuarios"
+    connectionString: "PostgreSQL://postgres:123456@localhost:5432/ejercicios"
 });
 
 const argv = hideBin(process.argv);
